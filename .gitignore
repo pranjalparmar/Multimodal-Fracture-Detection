@@ -1,0 +1,165 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Optional: ignore full local Streamlit config
+# .streamlit/
+
+# =========================
+# Jupyter / notebooks
+# =========================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# =========================
+# Testing / coverage / typing
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# IDE / editor files
+# =========================
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.swp
+*.swo
+*~
+.history/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Local app outputs / temp
+# =========================
+output/
+outputs/
+tmp/
+temp/
+.cache/
+*.tmp
+*.bak
+
+# =========================
+# ML / model artifacts
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Training / experiment folders
+runs/
+wandb/
+mlruns/
+checkpoints/
+
+# =========================
+# Uploaded / generated media
+# =========================
+uploads/
+media/
+
+# Uncomment these only if images should NOT be versioned
+# *.png
+# *.jpg
+# *.jpeg
+# *.bmp
+# *.tif
+# *.tiff
+
+# =========================
+# Local databases / misc
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# Deployment / misc
+# =========================
+.python-version
