@@ -33,7 +33,7 @@ It is not a medical device and should not be used for diagnosis.
 ## Screenshots
 
 ### Fracture example
-
-
+![Fracture example](./screenshots/fracture-example.png)
 
 ### Non-fracture example
+![Non-fracture example](./screenshots/non-fracture-example.png)
